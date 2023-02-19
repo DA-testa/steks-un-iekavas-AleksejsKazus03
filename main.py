@@ -22,7 +22,10 @@ def find_mismatch(text):
             opening_brackets_stack or not are_matching (opening_brackets_stack[-1].char, next):
                 return i+1
             pass
-
+        
+    if opening_brackets_stack:
+        return opening_brackets_stack[0].position
+    return "Success"
 
 def main():
     text = input()
