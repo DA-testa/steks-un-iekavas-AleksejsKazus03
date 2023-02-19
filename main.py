@@ -1,4 +1,5 @@
 # python3
+# Aleksejs_Kazus_12gr_221RDB105
 
 from collections import namedtuple
 
@@ -30,11 +31,16 @@ def find_mismatch(text):
     return "Success"
 
 def main():
+ n = input()
+ if n=="F":
     text = input()
     mismatch = find_mismatch(text)
     # Printing answer, write your code here
     print(mismatch)
-
+ else:
+    text = input()
+    mismatch = find_mismatch(text)
+    print(mismatch)
 
 if __name__ == "__main__":
     main()
