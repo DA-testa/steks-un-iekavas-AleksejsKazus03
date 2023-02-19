@@ -5,7 +5,7 @@ from collections import namedtuple
 Bracket = namedtuple("Bracket", ["char", "position"])
 
 def input_i(input_i)
-    return(.\n) in "I"
+    return(\n) in "I"
 
 
 def are_matching(left, right):
